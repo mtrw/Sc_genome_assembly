@@ -1,0 +1,7 @@
+rye_assembly_functions_github.R :
+
+	The TRITEX pipeline was used to assemble the rye genome. This pipeline manipulates an R list object that represents the assembly. In some stages, modifications were made to TRITEX functions to enable:
+A) Plotting of datasets in a way suitable to allow intelligent manipulation of the agp table object manually to improve the assembly, and
+B) To allow superscaffolds to be constructed from a X-column table with columns indicating the scaffold, the superscaffold in which it is included, and the orientation of the scaffold within the superscaffold. Order is inferred from the table.
+
+This R script can be `source()`d to allow access to these functions. Descriptions of the functions are given as comments in the script.
